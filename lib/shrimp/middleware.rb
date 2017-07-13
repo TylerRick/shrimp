@@ -90,7 +90,7 @@ module Shrimp
           <html>
           <head>
         </head>
-          <body onLoad="setTimeout(function(){ window.location.reload()}, #{interval * 1000});">
+          <body onLoad="setTimeout(function(){ window.location = window.location.href + '&a'}, #{interval * 1000});">
           <h2>Preparing PDF file.  Please wait... </h2>
           </body>
         </ html>
